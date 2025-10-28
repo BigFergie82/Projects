@@ -56,6 +56,8 @@ def seconds_conversion(time):
     elif time / 86400 >= 1:
         total = time / 86400
         print(f"It would take approximately {total:.2f} days to crack your password!")
+    elif time / 3600 >= 1:
+        print(f"It would take approximately {total:.2f} hours to crack your password!")
     else:
         print(f"It would take aproximately {time:.2f} seconds to crack")
 
