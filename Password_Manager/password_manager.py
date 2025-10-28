@@ -131,7 +131,7 @@ def main():
             print("Password has been saved to your database")
         
 #   [Q] EXIT
-        elif selection == "Q" or "q":
+        elif selection.upper() == "Q":
             print("Exit")
             break
 
